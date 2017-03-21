@@ -1,0 +1,26 @@
+{
+  "name": "redis-user-management-app",
+  "version": "1.0.0",
+  "description": "User management application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an0nh4x0r/redis-user-management-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an0nh4x0r/redis-user-management-app/issues"
+  },
+  "homepage": "https://github.com/an0nh4x0r/redis-user-management-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "redis": "^2.7.1"
+  }
+}
